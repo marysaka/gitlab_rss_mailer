@@ -1,0 +1,19 @@
+smtp:
+  host: smtp.example.com
+  port: 587
+  protocol: tls
+  username: user
+  password: user
+  email_from: "RSS Mailer <rss_mailer@example.com>"
+  email_to: "somebody@example.com"
+
+feeds:
+  mrs:
+    title: "MRs"
+    urls:
+      - "https://gitlab.com/gitlab-org/gitlab/-/merge_requests.atom"
+
+  panfrost_issues:
+    title: "Issues"
+    urls:
+      - "https://gitlab.com/gitlab-org/gitlab/-/issues.atom"

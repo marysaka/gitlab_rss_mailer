@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gitlab-rss-mailer"
+version = "0.1.0"
+description = "A service that transform RSS feeds from GitLab issues and MRs into mail notifications"
+authors = ["Mary Guillemard <mary@mary.zone>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+feedparser = "^6.0.11"
+pyyaml = "^6.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
